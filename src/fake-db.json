@@ -1,4 +1,32 @@
 {
-  "today": [{ "todo": "Study" }, { "todo": "Work" }, { "todo": "Relax" }],
+  "today": [
+    {
+      "toDo": {
+        "labor": "Study",
+        "time": {
+          "from": "10:00",
+          "until": "12:00"
+        }
+      }
+    },
+    {
+      "toDo": {
+        "labor": "Work",
+        "time": {
+          "from": "12:00",
+          "until": "20:00"
+        }
+      }
+    },
+    {
+      "toDo": {
+        "labor": "Relax",
+        "time": {
+          "from": "20:00",
+          "until": "22:00"
+        }
+      }
+    }
+  ],
   "tomorrow": [{ "todo": "Study" }, { "todo": "Work" }, { "todo": "Relax" }]
 }

@@ -7,7 +7,7 @@ export const TodoContaier = styled.div`
 export const TodoList = styled.ul``;
 
 export const TodoItem = styled.li`
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-size: 1.5rem;
   list-style: none;
   display: flex;
@@ -16,21 +16,23 @@ export const TodoItem = styled.li`
   position: relative;
   &:after {
     display: block;
-    background: black;
-    width: 100%;
-    height: 1px;
+    background: #114f78;
+    width: 80%;
+    height: 2px;
     content: "";
     position: absolute;
     bottom: -10%;
   }
 `;
 
-// content: '-',
-//     width: 100px;
-//     height: 5px;
-//     color: black;
-//     background-color: black;
-
 export const Work = styled.div`
   font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+`;
+
+export const Time = styled.span`
+  font-size: 1rem;
 `;

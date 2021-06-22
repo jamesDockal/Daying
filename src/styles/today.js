@@ -16,3 +16,14 @@ export const Tittle = styled.div`
 export const Day = styled.div`
   font-size: 3rem;
 `;
+
+export const hamburgerStyle = (isdisplayed) => {
+  const b = isdisplayed ? "0deg" : "90deg";
+  return {
+    cursor: "pointer",
+    color: "#114F78",
+    fontSize: "3rem",
+    transform: `rotate(${b})`,
+    transitionDuration: "0.3s",
+  };
+};

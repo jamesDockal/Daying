@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TodayContainer, Tittle, Day } from "../styles/today";
+import { TodayContainer, Tittle, Day, hamburgerStyle } from "../styles/today";
 
 import Todo from "../elements/Todo";
 
@@ -9,13 +9,13 @@ import fakedDb from "../fake-db.json";
 
 export default function Today() {
   const [isdisplayed, setIsdisplayed] = useState(true);
-  console.log(isdisplayed);
+
   return (
     <TodayContainer>
       <Tittle>
         <GiHamburgerMenu
           onClick={() => setIsdisplayed(!isdisplayed)}
-          style={{ cursor: "pointer", color: "#114F78", fontSize: "3rem" }}
+          style={hamburgerStyle(isdisplayed)}
         />
         <Day>Today</Day>
       </Tittle>
