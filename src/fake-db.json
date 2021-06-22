@@ -1,0 +1,4 @@
+{
+  "today": [{ "todo": "study" }, { "todo": "work" }, { "todo": "relax" }],
+  "tomorrow": [{ "todo": "study" }, { "todo": "work" }, { "todo": "relax" }]
+}

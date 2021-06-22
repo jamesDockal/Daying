@@ -1,12 +1,13 @@
 import React from "react";
-import { LeftbarContaier, Today } from "../styles/leftbar";
+
+import { LeftbarContaier } from "../styles/leftbar";
+
+import Today from "./Today";
 
 export default function Leftbar() {
   return (
     <LeftbarContaier>
-      <Today>
-        <h1>Today</h1>
-      </Today>
+      <Today />
     </LeftbarContaier>
   );
 }
