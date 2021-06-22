@@ -9,6 +9,10 @@ export const TodayContainer = styled.div`
 export const Tittle = styled.div`
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.8rem;
   height: 3rem;
+`;
+
+export const Day = styled.div`
+  font-size: 3rem;
 `;
