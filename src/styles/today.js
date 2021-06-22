@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const TodayContainer = styled.div`
   display: flex;
-  gap: 0rem;
   flex-direction: column;
 `;
 

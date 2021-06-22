@@ -3,6 +3,7 @@
     {
       "toDo": {
         "labor": "Study",
+        "details": "Node.js",
         "time": {
           "from": "10:00",
           "until": "12:00"

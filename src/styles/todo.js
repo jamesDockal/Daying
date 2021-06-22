@@ -7,7 +7,7 @@ export const TodoContaier = styled.div`
 export const TodoList = styled.ul``;
 
 export const TodoItem = styled.li`
-  margin-bottom: 2rem;
+  margin-top: 2rem;
   font-size: 1.5rem;
   list-style: none;
   display: flex;
@@ -26,11 +26,14 @@ export const TodoItem = styled.li`
 `;
 
 export const Work = styled.div`
-  font-size: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+`;
+
+export const Labor = styled.div`
+  font-size: 2rem;
 `;
 
 export const Time = styled.span`
